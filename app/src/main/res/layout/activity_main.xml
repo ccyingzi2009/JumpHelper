@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/checkRoot"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="检测root"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/addWindow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/checkRoot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="开启/关闭\n辅助浮窗"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="安全退出"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
